@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Person Videos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Playfair+Display:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb bg-orb-1"></div>
+    <div class="bg-orb bg-orb-2"></div>
+
+    <header class="site-header person-header">
+      <a class="back-link" href="index.html">← Back to Gallery</a>
+      <p class="eyebrow">Video Hub</p>
+      <h1 id="person-title">Person</h1>
+      <p class="subhead">Click a video card to load it into the player.</p>
+    </header>
+
+    <main class="video-layout">
+      <section class="video-player-panel" aria-label="Video Player">
+        <video id="player" controls playsinline preload="metadata">
+          Sorry, your browser does not support HTML video.
+        </video>
+
+        <div class="player-controls">
+          <label>
+            Speed
+            <select id="speed-control" aria-label="Playback speed">
+              <option value="0.5">0.5x</option>
+              <option value="0.75">0.75x</option>
+              <option value="1" selected>1x</option>
+              <option value="1.25">1.25x</option>
+              <option value="1.5">1.5x</option>
+              <option value="2">2x</option>
+            </select>
+          </label>
+
+          <label>
+            Format
+            <select id="format-control" aria-label="Video format"></select>
+          </label>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="panel-title">Available Videos</h2>
+        <div id="video-list" class="video-list" aria-label="Video choices"></div>
+      </section>
+    </main>
+
+    <script type="module" src="person.js"></script>
+  </body>
+</html>

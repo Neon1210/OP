@@ -1,0 +1,64 @@
+{
+  "people": [
+    {
+      "id": "bridgette-b",
+      "name": "Bridgette B",
+      "images": [
+        "pic/brid1.jpg",
+        "pic/brid2.jpg",
+        "pic/brid3.jpg",
+        "pic/brid4.jpg",
+        "pic/brid5.jpg"
+      ],
+      "videos": []
+    },
+    {
+      "id": "julianna-vega",
+      "name": "Julianna Vega",
+      "images": [
+        "pic/juli1.jpg",
+        "pic/juli2.jpg",
+        "pic/juli3.jpg",
+        "pic/juli4.jpg",
+        "pic/juli5.jpg"
+      ],
+      "videos": []
+    },
+    {
+      "id": "romi-rain",
+      "name": "Romi Rain",
+      "images": [
+        "pic/romi1.jpg",
+        "pic/romi2.jpg",
+        "pic/romi3.jpg",
+        "pic/romi4.jpg",
+        "pic/romi5.jpg"
+      ],
+      "videos": []
+    },
+    {
+      "id": "karma-rx",
+      "name": "Karma RX",
+      "images": [
+        "pic/kar1.jpg",
+        "pic/kar2.jpg",
+        "pic/kar3.jpg",
+        "pic/kar4.jpg",
+        "pic/kar5.jpg"
+      ],
+      "videos": []
+    },
+    {
+      "id": "valentina-nappi",
+      "name": "Valentina Nappi",
+      "images": [
+        "pic/val1.jpg",
+        "pic/val2.jpg",
+        "pic/val3.jpg",
+        "pic/val4.jpg",
+        "pic/val5.jpg"
+      ],
+      "videos": []
+    }
+  ]
+}
